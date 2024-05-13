@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #efefef;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 38px;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        background-color: black;
+    color: #efefef;
+    }
+  }
+  
